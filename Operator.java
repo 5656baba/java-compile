@@ -3,7 +3,7 @@ public class Operator {
       int val = 2 + 5;
       System.out.println(val);
 
-      val++;
+      val++;  //rubyでいうところのa+=1 
       System.out.println(val);
 
       val *= 5;
