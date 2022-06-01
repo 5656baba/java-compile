@@ -6,7 +6,7 @@ public class Pythagoras {
 		int cnt = 0;
 		for(int i = 1; i < 100; i = i + 2) {
 			for (int j =2; j < 100; j = j + 2) {
-				//a = m2 - n2
+				//  a = m2 - n2
 				double m = Math.pow(i,2);
 				double n = Math.pow(j,2);
 				if (m < n) {
@@ -14,9 +14,9 @@ public class Pythagoras {
 				} else {
 					a = m - n;
 				}
-				//b = 2mn
+				//  b = 2mn
 				b = 2 * i * j;
-				//c = m2 + n2
+				//  c = m2 + n2
 				c = m + n;
 
 				if(Math.pow(c, 2) <= 6000) {
